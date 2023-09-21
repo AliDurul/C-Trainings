@@ -1,0 +1,58 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   /*
+    int sayilar[]={44,58,75,65,12,34,25,10,255},n,sayi,i,bulundu=0;
+       printf("\nhangi sayiyi ariyorsunuz? \n"); scanf("%d",&sayi);
+
+          for(i=0;i<9;i++)
+          {
+                    if(sayilar[i]==sayi)
+                    {
+                     bulundu=1; break;
+                    }
+          }
+          if (bulundu==1)
+          {
+               printf("girilen %d degeri %d. indisinde bulundu..",sayi,i);
+          }
+          else
+          {
+               printf("bulunamadi..");
+          }
+ */
+          int T_sayi,i,bulundu=0,sayi;
+        printf("toplam kac sayi girmek istiyorsunuz: ");scanf("%d",&T_sayi);
+        int sayilar[T_sayi];
+        printf("\n*****sayi giriniz******\n");
+        for(i=0;i<T_sayi;i++)
+        {
+             printf("%d. sayiniz: ",i+1); scanf("%d",&sayilar[i]);
+        }
+        system("cls");
+        printf("aranacak sayiyi giriniz: "); scanf("%d",&sayi);
+        for(i=0;i<T_sayi;i++)
+        {
+             if(sayilar[i]==sayi)
+             {
+                  bulundu=1; break;
+             }
+        }
+        if(bulundu==1)
+        {
+             printf("aradiginiz %d deger %d. indisinde bulundu",sayi,i);
+        }
+        else
+          {
+           printf("bulunamadi..");
+          }
+
+
+
+
+
+
+    return 0;
+}

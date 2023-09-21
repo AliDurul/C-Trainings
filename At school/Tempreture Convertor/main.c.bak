@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+int main(){
+int choice,ans;
+float cel, fr;
+
+menu:
+    system("cls");
+printf("Tempreture Convertor\n ");
+printf("Menu\n ");
+printf("1: cel to fr\n ");
+Sleep(1000);
+printf("2: fr to cel\n ");
+Sleep(1000);
+printf("3: for quit\n ");
+scanf("%d",&choice);
+
+switch(choice){
+
+
+case 1:
+
+if (choice==1){
+ system("cls");
+printf("Enter the tempreture in cel\n ");
+scanf("%f",&cel);
+
+fr=(cel*1.8)+32; // formulA
+
+printf("Tempreture in fr: %2.f",fr);
+
+getch();
+goto menu;
+break;
+}
+
+case 2:
+ if (choice==2){
+system("cls");
+printf("Enter the tempreture in fr\n ");
+scanf("%f",&fr);
+
+cel=(fr-32)/1.8; // formula
+
+printf("Tempreture in celsius: %2.f",cel);
+
+getch();
+goto menu;
+break;
+}
+
+
+ case 3:
+  if (choice==3)
+ {
+    printf("Closing program...");
+ }
+}
+
+return 0;
+}

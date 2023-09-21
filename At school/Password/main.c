@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    char password[20];
+    char username[20];
+    int counter;
+login:
+    system("cls");
+    printf("User name: ");
+    scanf("%s",&username);
+    printf("Password: ");
+    scanf("%s",&password);
+
+    if ((strcmp(password,"SariKara1803"))==0 )
+    {
+           if ((strcmp(username,"AliDurul"))==0)
+           {
+              printf("Access allowed..");
+           }
+    }
+else {
+        counter++;
+          printf("incorrect password or user name\nyou have %d tries remaining\n",3 - counter);
+
+while (3>counter){
+        Sleep(2000);
+            goto login;
+        }
+    }
+
+   return 0;
+}

@@ -1,0 +1,173 @@
+    #include <stdio.h>
+    #include <math.h>
+
+    int main()
+    {
+    /*
+    int i;
+    for (i=1;i<=10;i++){
+
+    printf("%d Hello world!\n",i);
+     }
+
+     int i;
+     for (i=1;i<=10;i++){
+
+    printf("%dnin kupu %d\n",i,i*i*i);
+     }
+    ----------------------
+    int s1,i;
+
+    printf("bir sayi giriniz: "); scanf("%d",&s1);
+    for (i=1;i<=s1;i++){
+    printf("%dnin karakoku %.1f\n",i,sqrt(i));
+    }
+    ----------------
+    int s1,i;
+    printf("bir sayi girin: "); scanf("%d",&s1);
+    for (i=s1;i>0;i--){
+    printf("%d\n",i);
+
+    Sleep(1000);
+    }
+    int i,toplam=0;
+    for(i=1;i<=10;i++){
+    toplam=toplam+i; // toplam+=i;
+     }
+    printf("%d\n",toplam);
+
+    int i,s1,tplm=0;
+    printf("bir rakam girirniz: "); scanf("%d",&s1);
+    for(i=1;i<=s1;i++){
+    tplm+=i;
+    }
+    printf("girmis oldugunuz rakamin toplamlari: %d",tplm);
+    ---------------
+
+    int i,tplm,s1,s2;
+    int secim;
+    main:
+    tplm=0;
+    printf("\tbir sayi girin: "); scanf("%d",&s1);
+    printf("\tikinci sayinizi giriniz: "); scanf("%d",&s2);
+    if(s1<s2){
+    for(i=s1;i<=s2;i++){
+    tplm+=i;
+    }
+    printf("\tgirdiginiz iki sayi araligindaki sayilar toplami:%d\n",tplm);
+    printf("\tLoading");Sleep(1000);printf(".");Sleep(1000);printf(".");Sleep(1000);printf(".");
+    }
+
+    else {
+        for(i=s1;i>=s2;i--){
+      tplm+=i;
+        }
+    printf("\tgirdiginiz iki sayi araligindaki sayilar toplami:%d\n",tplm);
+    printf("\tLoading");Sleep(1000);printf(".");Sleep(1000);printf(".");Sleep(1000);printf(".");
+    }
+
+    secenekler:
+    system("cls");
+    printf("\ttekrar denemek icin 1e basin\n");
+    printf("\tsonlandirmak icin 2ye basin\n"); scanf("%d",&secim);
+    if(secim==1){
+    goto main;
+    }
+    else if(secim==2)
+    exit(1);
+     else {
+    printf("\tinvalid option try again ..\n");
+    Sleep(1000);
+    goto secenekler;
+    }
+   -----------------
+    int i,s1,s2,ciftsayi=0,teksayi=0,toplamc=0,toplamt=0;
+
+    printf("bir sayi girin: "); scanf("%d",&s1);
+    printf("bir sayi daha girin: "); scanf("%d",&s2);
+
+    if(s1<s2)
+    {
+        for(i=s1;i<=s2;i++)
+       {
+                if (i%2==0)
+                {
+                toplamc=toplamc+i;
+                ciftsayi=ciftsayi+1;// cift sayi adetini bellektesaklar
+                }
+                else
+                {
+                toplamt=toplamt+i;
+                teksayi=teksayi+1;
+                }
+        }
+
+    }
+    else
+    {
+        for(i=s1;i>=s2;i--)
+        {
+               if (i%2==0)
+                {
+                toplamc=toplamc+i;
+                ciftsayi=ciftsayi+1;// cift sayi adetini bellektesaklar
+                }
+                else
+                {
+                toplamt=toplamt+i;
+                teksayi=teksayi+1;
+                }
+        }
+
+    }
+            printf("\ntopmlam %d tane cift sayisi var\n",ciftsayi);
+            printf("ciftlrtin toplami %d",toplamc);
+            printf("\ntopmlam %d tane tek sayisi var\n",teksayi);
+            printf("ciftlrtin toplami %d",toplamt);
+--------------------------
+
+        int i,sayi,max=0,min=9999,rkm;
+        printf("kac rakam gireceksiniz: "); scanf("%d",&rkm);
+        for(i=1;i<=rkm;i++)
+        {
+            printf("%d. sayiniz: ",i); scanf("%d",&sayi);
+            if(sayi>max)
+            {
+                max=sayi;
+            }
+            if (sayi<min)
+            {
+                min=sayi;
+            }
+        }
+            printf("en buyuk sayi %d\n",max);
+            printf("en kucuk sayi %d",min);
+-------------------------
+int s1,i,faktori=1;
+printf("faktoriyelini bulmak isteginiz sayiyi giriniz: "); scanf("%d",&s1);
+
+for(i=1;i<=s1;i++)
+{
+       faktori=faktori*i;
+}
+    printf("%d sayisinin faktoriyeli: %d",s1,faktori);
+    ---------------------------------
+        */
+     int i=1,j=1;
+     printf("\n-----------carpim tablosu--------------\n\n");
+     for(i=1;i<=5;i++)
+     {
+         for(j=1;j<=10;j++)
+         {
+             printf("%d*%d=%d\n",i,j,i*j);
+         }
+         printf("\n\n");
+     }
+     ------------------------------------
+
+
+
+
+
+            return 0;
+    }

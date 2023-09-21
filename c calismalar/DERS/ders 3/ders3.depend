@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616265002 source:c:\users\ali\documents\calismalar\ders4\main.c
+	<stdio.h>
+	<stdlib.h>
+

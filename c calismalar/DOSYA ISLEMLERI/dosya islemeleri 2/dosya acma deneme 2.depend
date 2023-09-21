@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1620720299 source:d:\c programing\c calismalar\dosya acma deneme 2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1620720381 source:d:\c programing\c calismalar\dosya islemeleri 2\main.c
+	<stdio.h>
+	<stdlib.h>
+

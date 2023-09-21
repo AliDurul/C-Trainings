@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1616056663 source:c:\users\ali\documents\hazir code\main.c
+	<stdio.h>
+	<conio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+
+1616056663 source:c:\users\ali\documents\c programing codes\hazir code\main.c
+	<stdio.h>
+	<conio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+
+1616056663 source:d:\c programing\projects\hazir code quiz\main.c
+	<stdio.h>
+	<conio.h>
+	<ctype.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1619556414 source:d:\c programing\some codes\deneme\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1619581699 source:d:\c programing\c calismalar\while loop\main.c
+	<stdio.h>
+	<stdlib.h>
+

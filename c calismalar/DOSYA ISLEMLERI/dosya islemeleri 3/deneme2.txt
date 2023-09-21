@@ -1,0 +1,4 @@
+adi: Ali 
+soyadi: Durul
+Yasi: 19
+ali

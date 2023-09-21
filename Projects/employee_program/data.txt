@@ -1,0 +1,5 @@
+firstname		surname		Phonenumber		Female		National.R.C		marital		city		housenumber	email
+Kelvin		banda		+260975550955		male		5124/19/1		single		lusaka		#123/1213	kev@mail.com
+Esther		Amsini		+102399432432		Female		782131/31/1		Single		NewYork		#123/1213	estere@mail.co
+Brian		Banda		+213123432523		Male		31321/12/123		Single		lusaka		2313.213	brain@main.com
+victoria		ali		6484661194		female		1511649561		maried		lusaka		856	dsfdgsdf

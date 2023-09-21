@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1620070000 source:d:\c programing\c calismalar\math\main.c
+	<stdio.h>
+	<math.h>
+

@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int Siralanacak_deger,i,j,temp;
+  printf("siralamak istediginiz kac deger var? "); scanf("%d",&Siralanacak_deger);
+  int sayilar[Siralanacak_deger];
+  for (i=0;i<Siralanacak_deger;i++)
+  {
+       printf("%d. sayiniz: ",i+1); scanf("%d",&sayilar[i]);
+  }
+
+  puts("girdiginiz degerlerin siralanmadan onceki hali: \n");
+    for (i=0;i<Siralanacak_deger;i++)
+  {
+       printf("%d. girdiginiz sayi degeri: %d\n",i+1,sayilar[i]);
+  }
+
+  for (i=0;i<Siralanacak_deger;i++)
+  {
+       for(j=i+1;j<Siralanacak_deger;j++)
+       {
+            if (sayilar[i]>sayilar[j])
+            {
+                 temp=sayilar[i];
+                 sayilar[i]=sayilar[j];
+                 sayilar[j]=temp;
+            }
+       }
+  }
+    printf("siralanmis halleri asagidaki gibi..\n");
+     for (i=0;i<Siralanacak_deger;i++)
+     {
+          printf("%d. %d\n",i+1,sayilar[i]);
+     }
+
+    return 0;
+}

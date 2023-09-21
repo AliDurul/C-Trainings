@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    /*
+     int array[4];
+     array[0]=3;
+     array[1]=66;
+     array[2]=56;
+     array[3]=5;
+    printf("%d\n%d\n%d\n%d\n\n",array[0],array[1],array[3],array[2]);
+     puts("---------1-------");
+    int dizi[5]={1,2,3,4,5};
+    printf("%d",dizi[2]);
+    puts("\n--------2--------\n");
+    int dizi1[]={1,2,3,4,5,6,7,8,9,10};
+    for (int i=0;i<10;i++)
+    {
+         printf("%d\n",dizi1[i]);
+    }
+    puts("\n----------3------\n");
+     int dizi2[]={1,2,3,4,5,6,7,8,9,10};
+    for (int i=0;i<10;i++)
+    {
+         printf("%d\n",dizi2[i]*dizi2[i]);
+    }
+     puts("\n----------4------\n");
+     int dizi3[]={1,2,3,4,5,6,7,8,9,10},toplam;
+    for (int i=0;i<10;i++)
+    {
+          toplam+=dizi3[i];
+     }
+     printf("%d\n",toplam);
+
+     ================
+  */
+          int s1,i,dizi[5];
+          puts("kac  adet sayi girmek istiyorsunuz: "); scanf("%d",&s1);
+          system("cls");
+
+          for(i=0;i<=s1;i++)
+          {
+               printf("%d. sayiyi giriniz: ",i+1); scanf("%d",&dizi[i]);
+          }
+          for(i=0;i<=s1;i++)
+          {
+          printf("\ndizinin %d. elemani = %d\n",i,dizi[i]);
+          }
+
+    return 0;
+}

@@ -1,0 +1,7 @@
+a+ >> read and write permission
+a >> append permission (creats a file if file does not exist) 
+r+ >> read and write permission
+r >> read permission
+w >> write permission
+removes anything from file and overwrites
+w+ >> write aand read permission

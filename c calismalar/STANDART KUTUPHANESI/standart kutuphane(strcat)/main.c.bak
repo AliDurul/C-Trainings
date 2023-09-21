@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     //
+    char note[]="HI ", note1[]="WORLD";
+    strcat(note,note1);
+     printf("%s!\n",note);
+     printf("%s",note1);
+    return 0;
+}

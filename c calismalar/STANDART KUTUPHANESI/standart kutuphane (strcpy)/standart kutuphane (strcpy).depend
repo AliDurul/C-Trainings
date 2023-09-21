@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1625572665 source:d:\c programing\c calismalar\standart kutuphane (strcpy)\main.c
+	<stdio.h>
+	<string.h>
+

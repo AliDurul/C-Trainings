@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1617878064 source:c:\users\pc\desktop\employeemanagementsystem\employee_program\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+
+1618382380 source:g:\employeemanagementsystem\057-469_programing_assignement\employee_program\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+
+1618382380 source:d:\c programing\projects\employee_program\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+

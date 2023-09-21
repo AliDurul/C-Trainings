@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+      /*
+     int matris[2][2];
+     matris[0][0]=1;
+     matris[0][1]=2;
+     matris[1][0]=3;
+     matris[1][1]=4;
+     printf("%d %d\n%d %d",matris[0][0],matris[0][1],matris[1][0],matris[1][1]);
+
+     //==============================
+     matris[0] [0]=matris[0][1]*2+matris[1][1];
+     printf("\n%d",matris[0] [0]);
+     //========================
+
+     puts("\n---\n");
+     int matris1[2] [3]={(1,2,3),(4,5,6)};
+     printf("%d",matris1[0][0]);
+     =========================
+
+     int matris [2] [3]={4,5,6,7,8,9};
+     for (int i=0; i<2; i++)
+     {
+          for(int j=0; j<3; j++)
+          {
+               printf("%d ",matris[i] [j]);
+          }
+          printf("\n");
+     }
+
+      */
+    int n,i,j,a;
+
+    printf("enter a value for column: "); scanf("%d",&n);
+    printf("enter a value for row: "); scanf("%d",&a);
+
+    int matris[n][a];
+     for (i=0;i<n;i++)
+     {
+          for (j=0;j<a;j++)
+          {
+               printf("enter a number: "); scanf("%d",&matris[i][j]);
+          }
+     }
+      printf("\n");
+       for (i=0;i<n;i++)
+     {
+          for (j=0;j<a;j++)
+          {
+               printf("%d ",matris[i][j]);
+          }
+          printf("\n");
+     }
+
+
+
+    return 0;
+}

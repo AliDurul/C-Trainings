@@ -1,0 +1,8 @@
+- Operating System:
+	1. windows (recomended)
+	2. Mac or Ubunthu (remove "<conio.h>" and 'system("cls");' before run)
+- Compiler:
+	1. codeblocks(recommended)
+	2. gcc complier on (mac/ubunthu)
+	3. C compiler/Debuger(vscode)
+	 

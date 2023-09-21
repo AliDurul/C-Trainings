@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    /*
+     int deger;
+    printf("bir deger giriniz: ");scanf("%d",&deger);
+
+    switch(deger)
+     {                                                                                               //break
+               case 1: printf("1 e bastiniz..");
+               case 2: printf("2 e bastiniz..");
+               case 3: printf("3 e bastiniz..");
+               default: printf("yanlis deger girdiniz..");
+     }
+
+
+
+     for (int i=0;i<=10;i++)
+     {
+          if(i==5)
+          {
+               break;
+          }
+          printf("%d\n",i);
+     }
+          printf("dongu sonlandi");
+
+  */
+
+     int sayi,toplam;
+     for(int i=0;i<=2;i++)
+     {
+          printf("bir sayi giriniz (bitirmek icin sifira basiniz: ");
+          scanf("%d",&sayi);
+          toplam+=sayi;
+     }
+          printf("toplamlari: %d",toplam);
+
+
+
+
+
+
+
+
+    return 0;
+}

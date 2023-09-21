@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1625248885 source:c:\users\ali\desktop\arrays 7\main.c
+	<stdio.h>
+	<stdlib.h>
+

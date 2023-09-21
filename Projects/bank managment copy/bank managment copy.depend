@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619900884 source:d:\c programing\projects\bank managment copy\main.c
+	<stdio.h>
+	<conio.h>
+
